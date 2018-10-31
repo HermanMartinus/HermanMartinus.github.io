@@ -1,11 +1,11 @@
 # Site settings
-title: "HermanSandbox"
+title: "Herman Martinus"
 email: hfbmartinus@gmail.com
 description: "Code monkey, altruist, rock-climber."
 baseurl: ""
 url: "hermansandbox.co.za"
 title_description: "Code monkey, altruist, rock-climber."
-title_image: "https://imgur.com/naHvaoa"
+title_image: "https://imgur.com/naHvaoa.jpg"
 google_analytics: ""
 disqus_account: cartenoire
 github_repository: https://github.com/hermanmartinus
@@ -23,7 +23,7 @@ stackoverflow_link:
 xing_link:
 facebook_link:
 tumblr: "whypictures.com"
-resume: "/assets/resume.pdf"
+resume: "https://drive.google.com/open?id=1uzUvrC-GlNv9_YmAn8mjAwU575N4sDGE"
 
 # Footer
 footer_left: "Made with <i class=\"fa fa-heart\"></i> in Cape Town"
