@@ -5,7 +5,7 @@ description: "Code monkey, altruist, rock-climber."
 baseurl: ""
 url: "hermansandbox.co.za"
 title_description: "Code monkey, altruist, rock-climber."
-title_image: "/assets/pp.jpeg"
+title_image: "https://imgur.com/naHvaoa"
 google_analytics: ""
 disqus_account: cartenoire
 github_repository: https://github.com/hermanmartinus
@@ -38,9 +38,3 @@ kramdown:
 
 permalink: pretty
 exclude: [vendor]
-
-defaults:
-  - scope:
-      path: "assets"
-    values:
-      image: true
