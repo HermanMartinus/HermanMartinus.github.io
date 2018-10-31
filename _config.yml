@@ -8,24 +8,24 @@ title_description: "Code monkey, altruist, rock-climber."
 title_image: "https://instagram.fcpt8-1.fna.fbcdn.net/vp/8ce2c655b681cccd2a8bb4c9db50968c/5C83A287/t51.2885-15/e35/41182861_478131012691561_2909185620694103711_n.jpg"
 google_analytics: "UA-20365477-4"
 disqus_account: cartenoire
-github_repository: https://github.com/jacobtomlinson/carte-noire
+github_repository: https://github.com/hermanmartinus
 addthis_id: ra-513c6fa83da6ec67
 post_limit: 5
 
 # Social usernames/URLs
-twitter_username: _jacobtomlinson
-github_username:  jacobtomlinson
-instagram_username:
+twitter_username: @thedrmcbadass
+github_username:  HermanMartinus
+instagram_username: @the_sermon_of_herman
 reddit_username:
-linkedin_link: http://carte-noire.jacobtomlinson.co.uk/
-google_plus_link: http://carte-noire.jacobtomlinson.co.uk/
-stackoverflow_link: http://carte-noire.jacobtomlinson.co.uk/
+linkedin_link:
+google_plus_link:
+stackoverflow_link:
 xing_link:
 facebook_link:
 
 # Footer
-footer_left: "Made with <i class=\"fa fa-heart\"></i> by <a href=\"https://twitter.com/_JacobTomlinson\">Jacob Tomlinson</a>"
-footer_right: "&lt;/&gt; on <a href=\"https://github.com/jacobtomlinson/carte-noire\">Github</a> &nbsp;<i class=\"fa fa-github-alt\"></i>"
+footer_left: "Made with <i class=\"fa fa-heart\"></i> by Herman"
+footer_right: "&lt;/&gt; on <a href=\"https://github.com/hermanmartinus">Github</a> &nbsp;<i class=\"fa fa-github-alt\"></i>"
 
 # Build settings
 markdown: kramdown
