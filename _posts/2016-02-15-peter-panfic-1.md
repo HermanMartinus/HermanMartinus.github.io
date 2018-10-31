@@ -10,11 +10,11 @@ tags:
  - fanfic
  - writing
 ---
-_First, a bit of a disclaimer. This fanfic was written after a few glasses of wine in a cafe on Table Mountain by myself and an incredible girl (whose name I won’t mention in case this ruins her writing career).
+*First, a bit of a disclaimer. This fanfic was written after a few glasses of wine in a cafe on Table Mountain by myself and an incredible girl (whose name I won’t mention in case this ruins her writing career).
 
 Rarely have I ignored pizza on the table. That’s how much fun I had writing this with you. Thank you 🙂
 
-This story begins after the end of the last Peter Pan book where Peter comes back to visit Wendy for spring cleaning each and every year._
+This story begins after the end of the last Peter Pan book where Peter comes back to visit Wendy for spring cleaning each and every year.*
 
 
 
