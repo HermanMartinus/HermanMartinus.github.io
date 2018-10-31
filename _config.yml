@@ -5,7 +5,7 @@ description: "Code monkey, altruist, rock-climber."
 baseurl: ""
 url: "hermansandbox.co.za"
 title_description: "Code monkey, altruist, rock-climber."
-title_image: "https://instagram.fcpt8-1.fna.fbcdn.net/vp/8ce2c655b681cccd2a8bb4c9db50968c/5C83A287/t51.2885-15/e35/41182861_478131012691561_2909185620694103711_n.jpg"
+title_image: "/files/pp.jpeg"
 google_analytics: ""
 disqus_account: cartenoire
 github_repository: https://github.com/hermanmartinus
@@ -15,13 +15,15 @@ post_limit: 5
 # Social usernames/URLs
 twitter_username: TheDrMcBadass
 github_username:  HermanMartinus
-instagram_username: the_sermon_or_herman
+instagram_username: the_sermon_of_herman
 reddit_username:
 linkedin_link:
 google_plus_link:
 stackoverflow_link:
 xing_link:
 facebook_link:
+tumblr: "whypictures.com"
+resume: "/files/resume.pdf"
 
 # Footer
 footer_left: "Made with <i class=\"fa fa-heart\"></i> in Cape Town"
