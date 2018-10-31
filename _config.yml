@@ -5,7 +5,7 @@ description: "Code monkey, altruist, rock-climber."
 baseurl: ""
 url: "hermansandbox.co.za"
 title_description: "Code monkey, altruist, rock-climber."
-title_image: "/files/pp.jpeg"
+title_image: "/assets/pp.jpeg"
 google_analytics: ""
 disqus_account: cartenoire
 github_repository: https://github.com/hermanmartinus
@@ -23,7 +23,7 @@ stackoverflow_link:
 xing_link:
 facebook_link:
 tumblr: "whypictures.com"
-resume: "/files/resume.pdf"
+resume: "/assets/resume.pdf"
 
 # Footer
 footer_left: "Made with <i class=\"fa fa-heart\"></i> in Cape Town"
