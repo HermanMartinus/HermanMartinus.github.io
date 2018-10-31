@@ -38,3 +38,9 @@ kramdown:
 
 permalink: pretty
 exclude: [vendor]
+
+defaults:
+  - scope:
+      path: "assets"
+    values:
+      image: true
