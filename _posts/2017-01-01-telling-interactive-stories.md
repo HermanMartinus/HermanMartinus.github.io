@@ -4,7 +4,7 @@ title:      Telling interactive stories
 date:       2017-01-01 12:32:18
 summary:    How stories are shaped with systems
 categories: games
-thumbnail: games
+thumbnail: gamepad
 tags:
  - games
  - storytelling

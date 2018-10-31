@@ -4,7 +4,7 @@ title:      Useful tools for digital artists
 date:       2016-11-03 15:31:19
 summary:    A few great online tools that I have used time and time again
 categories: art
-thumbnail:  heart
+thumbnail:  paint-brush
 tags:
  - artists
  - art
