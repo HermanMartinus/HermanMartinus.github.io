@@ -19,20 +19,14 @@ make-smaller-titles: true
         {{ site.title_description }}
       </div>
 
-      {% include social_links.html %}
-    </div>
-    <div class="col-md-12 main content-panel">
-
       <div class="articles">
-
-        <h2>Some Stuff</h2>
-
-        <a href="{{ site.resume }}">Resume</a> | 
-        <a href="{{ site.tumblr }}">Webcomic</a>
-
+        <a href="{{ site.resume }}" target="_blank">Resume</a> |
+        <a href="{{ site.tumblr }}" target="_blank">Webcomic</a>
       </div>
 
+      {% include social_links.html %}
     </div>
+
     <div class="col-md-12 main content-panel">
 
       <div class="articles">
