@@ -25,14 +25,13 @@ make-smaller-titles: true
 
             <div class="articles">
 
-              <h2>Latest Articles</h2>
+              <h2>Latest Posts</h2>
 
               <ul>
                   {% for post in site.posts limit: site.post_limit %}
 
                       <li>
                           <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-                          <small class="hidden-xs">{{ post.date | date: "%B %-d, %Y" }}</small>
                       </li>
 
                   {% endfor %}
