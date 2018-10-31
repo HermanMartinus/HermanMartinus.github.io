@@ -1,11 +1,11 @@
 # Site settings
-title: "Carte Noire"
-email: jacob@jacobtomlinson.co.uk
-description: "A dark blog theme for Jekyll."
+title: "HermanSandbox"
+email: hfbmartinus@gmail.com
+description: "Code monkey, altruist, rock-climber."
 baseurl: ""
-url: "http://carte-noire.jacobtomlinson.co.uk/"
-title_description: "A dark blog theme for Jekyll focusing on a clear reading experience. Large text and a narrow body makes carte noire a gorgeous read. With excellent code snippet support and integrated tools such as AddThis and Disqus giving your Jekyll blog all the functionality your users expect."
-title_image: "https://www.gravatar.com/avatar/00000000000000000000000000000000?s=500&d=mm"
+url: "hermansandbox.co.za"
+title_description: "Code monkey, altruist, rock-climber."
+title_image: "https://instagram.fcpt8-1.fna.fbcdn.net/vp/8ce2c655b681cccd2a8bb4c9db50968c/5C83A287/t51.2885-15/e35/41182861_478131012691561_2909185620694103711_n.jpg"
 google_analytics: "UA-20365477-4"
 disqus_account: cartenoire
 github_repository: https://github.com/jacobtomlinson/carte-noire
@@ -15,8 +15,8 @@ post_limit: 5
 # Social usernames/URLs
 twitter_username: _jacobtomlinson
 github_username:  jacobtomlinson
-instagram_username: 
-reddit_username: 
+instagram_username:
+reddit_username:
 linkedin_link: http://carte-noire.jacobtomlinson.co.uk/
 google_plus_link: http://carte-noire.jacobtomlinson.co.uk/
 stackoverflow_link: http://carte-noire.jacobtomlinson.co.uk/
