@@ -5,44 +5,56 @@ make-smaller-titles: true
 
 
 <div class="container-fluid index">
-    <div class="row">
+  <div class="row">
 
-        <div class="col-md-12 main content-panel">
+    <div class="col-md-12 main content-panel">
 
-            <div class="gravatar">
-                <img src="{{ site.title_image }}" class="img-circle about-image" height="150" width="150" alt="{{ site.title }}" />
-            </div>
+      <div class="gravatar">
+        <img src="{{ site.title_image }}" class="img-circle about-image" height="150" width="150" alt="{{ site.title }}" />
+      </div>
 
-            <h1 class="header author-header" itemprop="headline">{{ site.title }}</h1>
+      <h1 class="header author-header" itemprop="headline">{{ site.title }}</h1>
 
-            <div class="author-text">
-                {{ site.title_description }}
-            </div>
+      <div class="author-text">
+        {{ site.title_description }}
+      </div>
 
-            {% include social_links.html %}
-          </div>
-          <div class="col-md-12 main content-panel">
+      {% include social_links.html %}
+    </div>
+    <div class="col-md-12 main content-panel">
 
-            <div class="articles">
+      <div class="articles">
 
-              <h2>Latest Posts</h2>
+        <h2>Some Stuff</h2>
 
-              <ul>
-                  {% for post in site.posts limit: site.post_limit %}
-
-                      <li>
-                          <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-                      </li>
-
-                  {% endfor %}
-                  <li>
-                      <small><i><a href="{{ site.baseurl }}/posts/">more...</a></i></small>
-                  </li>
-              </ul>
-
-            </div>
-
-        </div>
+        <a href="{ site.resume }" class="btn btn-primary">Resume</a>
+        <a href="{ site.tumblr }" class="btn btn-secondary">My Webcomic</a>
+        
+      </div>
 
     </div>
+    <div class="col-md-12 main content-panel">
+
+      <div class="articles">
+
+        <h2>Latest Posts</h2>
+
+        <ul>
+          {% for post in site.posts limit: site.post_limit %}
+
+          <li>
+            <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          </li>
+
+          {% endfor %}
+          <li>
+            <small><i><a href="{{ site.baseurl }}/posts/">more...</a></i></small>
+          </li>
+        </ul>
+
+      </div>
+
+    </div>
+
+  </div>
 </div>
