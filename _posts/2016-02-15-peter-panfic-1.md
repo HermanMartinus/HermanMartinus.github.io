@@ -3,7 +3,7 @@ layout:     post
 title:      Hooked (Part One) – A Peter Pan fanfic
 date:       2016-02-15 15:31:19
 summary:    A silly fanfic written with someone special
-categories: art
+categories: writing
 thumbnail:  heart
 tags:
  - peter-pan
