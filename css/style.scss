@@ -15,7 +15,7 @@ $stack-overflow: #c98b3b;
 $email: 				 #c98b3b;
 $instagram:      #cd486b;
 $reddit:         #cee3f8;
-$deviant_art:    #cee3f8;
+$deviantart:    #cee3f8;
 $rss:            #eea33a;
 
 $darker:         #21211E;
@@ -219,6 +219,14 @@ ul {
 
 	.fa-rss:hover {
 		color: $rss;
+	}
+
+	.fa-email:hover {
+		color: $email;
+	}
+
+	.fa-deviantart:hover {
+		color: $deviantart;
 	}
 }
 
