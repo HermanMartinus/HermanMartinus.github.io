@@ -7,7 +7,7 @@ url: "hermansandbox.co.za"
 title_description: "Code monkey, altruist, rock-climber."
 title_image: "https://imgur.com/naHvaoa.jpg"
 google_analytics: ""
-disqus_account: 
+disqus_account:
 github_repository: https://github.com/hermanmartinus
 addthis_id: ra-513c6fa83da6ec67
 post_limit: 5
@@ -23,6 +23,7 @@ stackoverflow_link:
 xing_link:
 facebook_link:
 tumblr: "http://whypictures.com"
+deviant_art: hfbmartinus
 resume: "https://drive.google.com/open?id=1uzUvrC-GlNv9_YmAn8mjAwU575N4sDGE"
 
 # Footer

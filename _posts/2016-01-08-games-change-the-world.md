@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      Why games are changing the world
-date:       2017-01-01 12:32:18
+date:       2016-01-08 12:32:18
 summary:    Musings on how videogames are changing the world for the better
 categories: games
 thumbnail: gamepad
