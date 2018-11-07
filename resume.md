@@ -1,20 +1,20 @@
 # Herman Martinus
 ## *Tech professional | Humanist | Rock-climber*
 
-![Drag Racing](assets/pp.jpg)
+![Me, the coder](assets/pp.jpg)
 ## Education
 BIS in Computer Science & Multimedia - University of Pretoria
 
 ## Experience
 
-## Developer Coach at MAKE
+### Developer Coach at MAKE
 >[make.offerzen.com](https://make.offerzen.com/)
 >
 >**Part time**
 >
 >**Role:** Coaching Make Day groups of ~20 people multiple times per week in a variety of technologies.
 
-### Front-end engineer at GetMyBoat
+### Front-end engineer at GetMyBoat (current)
 >[getmyboat.com](https://getmyboat.com)
 >
 >**Duration:** 2 years
@@ -22,12 +22,12 @@ BIS in Computer Science & Multimedia - University of Pretoria
 >**Role:** Building and scaling the GetMyBoat platform to more than 1 million users, with focus on (but not limited to) the web front-end.
 >
 >**Technologies:**
-* React/Redux - JS
-* Webpack
-* Babel
-* SCSS
-* Django - Python
-* CodeIgniter - PHP (legacy)
+>* React/Redux - JS
+>* Webpack
+>* Babel
+>* SCSS
+>* Django - Python
+>* CodeIgniter - PHP (legacy)
 
 
 ### Video game designer/developer at Sea Monster
@@ -38,9 +38,9 @@ BIS in Computer Science & Multimedia - University of Pretoria
 >**Role:** Designing and building a wide range of video games from small mobile AR applications through to fully fledged VR simulations.  
 >
 >**Technologies:**
-* Unity3D
-* Vuforia
-* Oculus
+>* Unity3D
+>* Vuforia
+>* Oculus
 
 ### E-commerce systems developer at Vaimo
 >[vaimo.com](http://vaimo.com)
@@ -50,9 +50,9 @@ BIS in Computer Science & Multimedia - University of Pretoria
 >**Role:** Developing and maintaining high traffic e-commerce systems for a variety of clients.
 >
 >**Technologies:**
-* Magento - PHP
-* jQuery - JS
-* HTML/CSS
+>* Magento - PHP
+>* jQuery - JS
+>* HTML/CSS
 
 ### Heroic Designs
 >[heroicdesigns.co.za](http://heroicdesigns.co.za)
@@ -62,9 +62,9 @@ BIS in Computer Science & Multimedia - University of Pretoria
 >**Role:** Developing and maintaining small business/personal websites for a variety of clients.
 >
 >**Technologies:**
-* PHP
-* jQuery - JS
-* HTML/CSS
+>* PHP
+>* jQuery - JS
+>* HTML/CSS
 
 
 ## Other interesting things
@@ -103,7 +103,7 @@ BIS in Computer Science & Multimedia - University of Pretoria
 * Docker
 * HTML 5/CSS 3
 * Python (Django, Flask)
-* Javascript (React, Redux, ES6)
+* Javascript (React, Redux, ES6, jQuery)
 * Webpack
 * Babel
 * SCSS
@@ -113,12 +113,12 @@ BIS in Computer Science & Multimedia - University of Pretoria
 * Adobe Suite
 * Unity 3D (C#)
 
-## Hobbies and interestes
+## Hobbies and interests
 
 * Environmental and social causes:
- * Have done work in accessibility to education (Zuri's lab)
- * Ran a hackathon with Merck and MEST for accessibility to healthcare in impoverished communities
- * Gave a talk at SoapBox on how to build ethical startups
+  * Have done work in accessibility to education (Zuri's lab)
+  * Ran a hackathon with Merck and MEST for accessibility to healthcare in impoverished communities
+  * Gave a talk at SoapBox on how to build ethical startups
 * Rock climbing
 * Salsa
 * Surfing
