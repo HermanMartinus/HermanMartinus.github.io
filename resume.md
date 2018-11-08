@@ -1,9 +1,11 @@
 # Herman Martinus
 ## *Tech professional | Humanist | Rock-climber*
 
-![Me, the coder](assets/pp.jpg)
+![Me, the coder](https://github.com/HermanMartinus/HermanMartinus.github.io/blob/master/assets/pp.jpg?raw=true)
+
 ## Education
-BIS in Computer Science & Multimedia - University of Pretoria
+* BIS in Computer Science & Multimedia - University of Pretoria
+* Matric - Hartbeespoort High School 
 
 ## Experience
 
