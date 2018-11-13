@@ -5,7 +5,7 @@
 
 ## Education
 * BIS in Computer Science & Multimedia - University of Pretoria
-* Matric - Hartbeespoort High School 
+* Matric - Hartbeespoort High School
 
 ## Experience
 
@@ -24,12 +24,8 @@
 >**Role:** Building and scaling the GetMyBoat platform to more than 1 million users, with focus on (but not limited to) the web front-end.
 >
 >**Technologies:**
->* React/Redux - JS
->* Webpack
->* Babel
->* SCSS
->* Django - Python
->* CodeIgniter - PHP (legacy)
+>
+>React/Redux (JS) | Webpack | Babel | SCSS | Django (Python) | CodeIgniter(legacy PHP)
 
 
 ### Video game designer/developer at Sea Monster
@@ -40,9 +36,8 @@
 >**Role:** Designing and building a wide range of video games from small mobile AR applications through to fully fledged VR simulations.  
 >
 >**Technologies:**
->* Unity3D
->* Vuforia
->* Oculus
+>
+>Unity3D | Vuforia | Oculus
 
 ### E-commerce systems developer at Vaimo
 >[vaimo.com](http://vaimo.com)
@@ -52,9 +47,7 @@
 >**Role:** Developing and maintaining high traffic e-commerce systems for a variety of clients.
 >
 >**Technologies:**
->* Magento - PHP
->* jQuery - JS
->* HTML/CSS
+>Magento (PHP) | jQuery (JS) | HTML/CSS
 
 ### Heroic Designs
 >[heroicdesigns.co.za](http://heroicdesigns.co.za)
@@ -64,9 +57,7 @@
 >**Role:** Developing and maintaining small business/personal websites for a variety of clients.
 >
 >**Technologies:**
->* PHP
->* jQuery - JS
->* HTML/CSS
+>PHP | jQuery (JS) | HTML/CSS
 
 
 ## Other interesting things
@@ -76,28 +67,30 @@
 >
 >**Interactive 3D models for figure drawing**
 >
->* Used by thousands of artists, illustrators and graphic designers every day
->* Built in WebGL, HTML and JS
->* Donation based
+>Used by thousands of artists, illustrators and graphic designers every day. It is built in WebGL, HTML and JS and is completely funded by donations.
 
 ### Horus
 >[github.com/HermanMartinus/Horus](https://github.com/HermanMartinus/Horus)
 >
 >**A simple, terminal-based password manager and 2FA generator.**
->* Instead of saving passwords, Horus generates passwords using MD5 hashing of the account name and secret seed phrase and copies it directly to the clipboard.
+>
+>Instead of saving passwords, Horus generates passwords using MD5 hashing of the account name and secret seed phrase and copies it directly to the clipboard.
 
 ### Global Game Jam
 >[globalgamejam.org/](https://globalgamejam.org/)
 >
->**An annual distributed game jam (a game jam is a hackathon for video games. It is a gathering of people for the purpose of planning, designing, and creating one or more games within a short period of time).**
->* 2016 winner of Award for Technical Excellence
->* 2017 winner of Award for Most Fun Game
+>**An annual distributed game jam (a game jam is a hackathon for video games. It is a gathering of people for the purpose of planning, designing, and creating a game within a short period of time).**
+>
+>2016 winner of Award for Technical Excellence
+>
+>2017 winner of Award for Most Fun Game
 
 ### Why Pictures
 >[whypictures.com](http://whypictures.com)
 >
 >**My personal webcomic.**
->* A simple webcomic for a complex world
+>
+>A simple webcomic for a complex world
 
 ## Technical Skills
 * Agile methodology
