@@ -77,6 +77,9 @@ layout: default
         {% endif %}
 
         <span itemprop="articleBody">{{ content }}</span>
+        {% if page.unity_dir %}
+           {% include page__unity.html %}
+        {% endif %}
 
         {% if page.series %}
           {% if seriesnext %}
