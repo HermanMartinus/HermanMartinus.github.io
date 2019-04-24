@@ -1,55 +1,56 @@
----
-layout: default
-make-smaller-titles: true
----
-
-
-<div class="container-fluid index">
-  <div class="row">
-
-    <div class="col-md-12 main content-panel">
-
-      <div class="gravatar">
-        <img src="{{ site.title_image }}" class="img-circle about-image" height="150" width="150" alt="{{ site.title }}" />
-      </div>
-
-      <h1 class="header author-header" itemprop="headline">{{ site.title }}</h1>
-
-      <div class="author-text">
-        {{ site.title_description }}
-      </div>
-
-      <div class="extras">
-        <a href="{{ site.resume }}" target="_blank">Resume</a> |
-        <a href="{{ site.tumblr }}" target="_blank">Webcomic</a>
-      </div>
-
-      {% include social_links.html %}
-    </div>
-
-    <div class="col-md-12 main content-panel">
-
-      <div class="articles">
-
-        <h2>Latest Posts</h2>
-
-        <ul>
-          {% for post in site.posts limit: site.post_limit %}
-
-          <li>
-            <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-            <small class="hidden-xs">{{ post.date | date: "%B %-d, %Y" }}</small>
-          </li>
-
-          {% endfor %}
-          <li>
-            <small><i><a href="{{ site.baseurl }}/posts/">more...</a></i></small>
-          </li>
-        </ul>
-
-      </div>
-
-    </div>
-
-  </div>
-</div>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Herman Martinus - Maker of games and stuff</title>
+    <link id="stylesheet" rel='stylesheet' href='https://cdn.jsdelivr.net/gh/kognise/water.css@latest/dist/dark.css'>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <h2>
+      Hello there friend! 
+    </h2>
+    <p>
+      I'm Herman Martinus, and you've stumbled upon my website.
+    </p>
+    <p>
+      I'm a game designer and developer from Cape Town, South Africa who likes exploring the human experience and systems. 
+    </p>
+    <p>
+      I do this through games, art, teaching, making, rock climbing, talking, and more (all the while drinking good coffee). 
+    </p>
+    <p>
+      <b>Here are some cool things I'm working on right now:</b>
+      <ul>
+        <li>
+          <a href="http://justsketch.me">JustSketchMe - Interactive 3D models for figure drawing</a>
+        </li>
+        <li>
+            <a href="https://herman-the-merman.itch.io/into-outer-bass">Into Outer Bass - a rhythm based, space arcade game for mobile</a>
+        </li>
+        <li>
+            <a href="https://play.google.com/store/apps/details?id=com.pranayama.breath">Prana - a meditative breathing app</a>
+        </li>
+        <li>
+            <a href="https://horuspass.com">Horuspass - simple passord managment</a>
+        </li>
+      </ul>
+    </p>
+    <p>
+      I try to keep a fairly extensive historical list of all the projects I've done <a href="projects.html">here</a>.
+    </p>
+    <p>
+      For the most up-to-date goings on, check my twitter (<a href="https://twitter.com/@TheDrMcBadass" target="_blank">@TheDrMcBadass</a>). 
+    </p>
+    <button onclick="flipIt()">Flip the switch</button>
+    <hr>
+    <h3>Get in touch with me :)</h3>
+    <address>
+      <a href="mailto:hfbmartinus@gmail.com">Email</a><br>
+      <a href="https://github.com/HermanMartinus">Github</a><br>
+      <a href="https://www.reddit.com/user/Herman_Martinus">Reddit</a><br>
+      <a href="https://twitter.com/@TheDrMcBadass" target="_blank">Twitter</a>
+    </address>
+    <hr>
+    <img src="herman.jpg" width="600" alt="Herman Martinus" />
+  </body>
+</html>
