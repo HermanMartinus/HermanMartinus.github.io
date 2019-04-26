@@ -41,15 +41,13 @@
     <p>
       For the most up-to-date goings on, check my twitter (<a href="https://twitter.com/@TheDrMcBadass" target="_blank">@TheDrMcBadass</a>). 
     </p>
-    <button onclick="flipIt()">Flip the switch</button>
     <hr>
     <h3>Get in touch with me :)</h3>
-    <address>
-      <a href="mailto:hfbmartinus@gmail.com">Email</a><br>
-      <a href="https://github.com/HermanMartinus">Github</a><br>
-      <a href="https://www.reddit.com/user/Herman_Martinus">Reddit</a><br>
-      <a href="https://twitter.com/@TheDrMcBadass" target="_blank">Twitter</a>
-    </address>
+    <input type="text" id="subject" placeholder="Subject" />
+    <textarea id="body" placeholder="Message" rows="6"></textarea>
+    <button onclick="SendMessage()">
+      Send
+    </button>
     <hr>
     <img src="herman.jpg" alt="Herman Martinus" />
   </body>

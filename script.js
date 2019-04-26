@@ -1,8 +1,6 @@
-function flipIt () {
-  const stylesheet = document.getElementById('stylesheet')
-  if (stylesheet.getAttribute('href').includes('dist/dark.css')) {
-    stylesheet.setAttribute('href', stylesheet.getAttribute('href').replace('dist/dark.css', 'dist/light.css'));
-  } else {
-    stylesheet.setAttribute('href', stylesheet.getAttribute('href').replace('dist/light.css', 'dist/dark.css'));
-  }
+function SendMessage() {
+  const baseLink = "mailto:hfbmartinus@gmail.com";
+  const subject = document.querySelector("#subject").value;
+  const message = document.querySelector("#body").value;
+  window.open(baseLink + "?subject=" + subject + " [via hermanmartinus.github.io]&body=" + message, '_blank');
 }
