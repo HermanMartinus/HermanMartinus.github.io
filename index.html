@@ -1,9 +1,29 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>Herman Martinus - Maker of games and stuff</title>
-    <link id="stylesheet" rel='stylesheet' href='https://cdn.jsdelivr.net/gh/kognise/water.css@latest/dist/dark.css'>
-    <script src="script.js"></script>
+
+    <meta name="title" content="Herman Martinus -  a game designer, developer, and maker of things">
+    <meta name="description" content="Herman is a game designer and developer from Cape Town, South Africa. He makes art, games and useful online tools and systems. Come say hi!">
+    <meta name="keywords" content="game, design, developer, programmer, engineer">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="60 days">
+    <meta name="author" content="Herman Martinus">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script>
+    function SendMessage() {
+      const baseLink = "mailto:hfbmartinus@gmail.com";
+      const subject = document.querySelector("#subject").value;
+      const message = document.querySelector("#body").value;
+      window.open(baseLink + "?subject=" + subject + " [via hermanmartinus.github.io]&body=" + message, '_blank');
+    }
+    </script>
+    <style>
+      @charset "UTF-8";body{font-family:system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;line-height:1.4;max-width:800px;margin:20px auto 0;padding:0 10px;color:#dbdbdb;background:#202b38;text-rendering:optimizeLegibility}button,input,textarea{transition:background-color .1s linear,border-color .1s linear,color .1s linear,box-shadow .1s linear,transform .1s ease}h1{font-size:2.2em;margin-top:0}h1,h2,h3,h4,h5,h6{margin-bottom:12px}h1,h2,h3,h4,h5,h6,strong{color:#fff}b,h1,h2,h3,h4,h5,h6,strong,th{font-weight:600}blockquote{border-left:4px solid rgba(0,150,191,.67);margin:1.5em 0;padding:.5em 1em;font-style:italic}blockquote>footer{margin-top:10px;font-style:normal}address,blockquote cite{font-style:normal}a[href^=mailto]:before{content:"📧 "}a[href^=tel]:before{content:"📞 "}a[href^=sms]:before{content:"💬 "}button,input[type=button],input[type=checkbox],input[type=submit]{cursor:pointer}input:not([type=checkbox]):not([type=radio]),select{display:block}button,input,select,textarea{color:#fff;background-color:#161f27;font-family:inherit;font-size:inherit;margin-right:6px;margin-bottom:6px;padding:10px;border:none;border-radius:6px;outline:none}button,input:not([type=checkbox]):not([type=radio]),select,textarea{-webkit-appearance:none}textarea{margin-right:0;width:100%;box-sizing:border-box;resize:vertical}button,input[type=button],input[type=submit]{padding-right:30px;padding-left:30px}button:hover,input[type=button]:hover,input[type=submit]:hover{background:#324759}button:focus,input:focus,select:focus,textarea:focus{box-shadow:0 0 0 2px rgba(0,150,191,.67)}button:active,input[type=button]:active,input[type=checkbox]:active,input[type=radio]:active,input[type=submit]:active{transform:translateY(2px)}button:disabled,input:disabled,select:disabled,textarea:disabled{cursor:not-allowed;opacity:.5}::-webkit-input-placeholder{color:#a9a9a9}:-ms-input-placeholder{color:#a9a9a9}::-ms-input-placeholder{color:#a9a9a9}::placeholder{color:#a9a9a9}a{text-decoration:none;color:#41adff}a:hover{text-decoration:underline}code,kbd{background:#161f27;color:#ffbe85;padding:5px;border-radius:6px}pre>code{padding:10px;display:block;overflow-x:auto}img{max-width:100%}hr{border:none;border-top:1px solid #dbdbdb}table{border-collapse:collapse;margin-bottom:10px;width:100%}td,th{padding:6px;text-align:left}th{border-bottom:1px solid #dbdbdb}tbody tr:nth-child(2n){background-color:#161f27}::-webkit-scrollbar{height:10px;width:10px}::-webkit-scrollbar-track{background:#161f27;border-radius:6px}::-webkit-scrollbar-thumb{background:#324759;border-radius:6px}::-webkit-scrollbar-thumb:hover{background:#415c73}
+    </style>
   </head>
   <body>
     <h2>
@@ -28,7 +48,7 @@
             <a href="https://herman-the-merman.itch.io/into-outer-bass">Into Outer Bass - a rhythm based, space arcade game for mobile</a>
         </li>
         <li>
-            <a href="https://play.google.com/store/apps/details?id=com.pranayama.breath">Prana - a meditative breathing app</a>
+            <a href="https://getmyboat.com">Working for GetMyBoat - a boat rental marketplace</a>
         </li>
         <li>
             <a href="https://meltwater.org/4-questions-with-mest-tech-fellow-herman-martinus/">Teaching at MEST - Ghana</a>
@@ -36,10 +56,10 @@
       </ul>
     </p>
     <p>
-      I try to keep a fairly extensive historical list of all the projects I've done <a href="projects.html">here</a>.
+      I try to keep a fairly extensive historical list of all the <a href="projects.html">projects I've done here</a>.
     </p>
     <p>
-      For the most up-to-date goings on, check my twitter (<a href="https://twitter.com/@TheDrMcBadass" target="_blank">@TheDrMcBadass</a>). 
+      &lt;3
     </p>
     <hr>
     <h3>Get in touch with me :)</h3>
@@ -49,6 +69,6 @@
       Send
     </button>
     <hr>
-    <img src="herman.jpg" alt="Herman Martinus" />
+    <img src="herman.png" alt="Herman Martinus" style="margin-bottom: -10px"/>
   </body>
 </html>
