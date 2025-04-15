@@ -1,6 +1,6 @@
 // Constants
 const BIN_ID = "67f7c29f8561e97a50fcafea";
-const API_KEY = localStorage.getItem('apiKey') || "";
+const API_KEY = localStorage.getItem('apiKey') || prompt('Please enter your API key:');
 const API_URL = `https://api.jsonbin.io/v3/b/${BIN_ID}`;
 const API_READ_URL = `https://api.jsonbin.io/v3/b/${BIN_ID}/latest`;
 
@@ -47,6 +47,10 @@ document.addEventListener('DOMContentLoaded', () => {
     // Reload the page to use the new API key
     window.location.reload();
     return;
+  }
+
+  if (!API_KEY) {
+    localStorage.setItem('apiKey', API_KEY);
   }
   
   // Load saved person preference

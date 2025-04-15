@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Redirecting...</title>
+</head>
+<body>
+  <script>
+    // Get the current path
+    const path = window.location.pathname;
+    
+    // Define redirects
+    const redirects = {
+      '/expense-tracker': '/expense-tracker/index.html'
+      // Add more redirects as needed
+    };
+    
+    // Check if we have a redirect for this path
+    if (redirects[path]) {
+      window.location.href = redirects[path];
+    } else {
+      // If no redirect is found, show a 404 message
+      document.body.innerHTML = '<h1>Page not found</h1><p>The requested page could not be found.</p>';
+    }
+  </script>
+</body>
+</html> 
