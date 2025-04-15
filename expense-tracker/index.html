@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bean Counter</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- PWA support -->
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#ff6b6b">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <link rel="apple-touch-icon" href="icons/icon-192x192.png">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Bean Counter</h1>
+      <button id="refresh-btn" class="btn btn-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21.5 2v6h-6M2.5 22v-6h6M2 11.5a10 10 0 0 1 18.8-4.3M22 12.5a10 10 0 0 1-18.8 4.2"></path></svg>
+      </button>
+    </div>
+
+    <div class="grid">
+      <!-- Add Expense Form -->
+      <div class="card expense-form">
+        <div class="card-header">
+          <h2>Add New Expense</h2>
+          <p>Log expenses paid from personal accounts</p>
+        </div>
+        <div class="card-content">
+          <div class="form-group">
+            <label for="name">Expense Name</label>
+            <input type="text" id="name" placeholder="e.g., Groceries, Dinner, Utilities">
+          </div>
+          <div class="form-group">
+            <label for="amount">Amount</label>
+            <input type="number" id="amount" placeholder="0.00">
+          </div>
+          <div class="form-group">
+            <label for="person">Paid By</label>
+            <select id="person">
+              <option value="Herman">Herman</option>
+              <option value="Emma">Emma</option>
+            </select>
+          </div>
+        </div>
+        <div class="card-footer">
+          <button id="add-expense-btn" class="btn btn-primary">
+            <span>Add Expense</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="16"></line><line x1="8" y1="12" x2="16" y2="12"></line></svg>
+          </button>
+        </div>
+      </div>
+
+      <div class="expense-container">
+        <!-- Expense Summary -->
+        <div class="card summary-card">
+          <div class="card-header">
+              <h2>Expense Summary</h2>
+              <p>Total amount owed by shared account</p>
+          </div>
+          <div class="card-content">
+            <div id="expense-summary" class="summary-content">
+              <div class="summary-grid">
+                <div class="summary-item">
+                  <p>Herman owed</p>
+                  <p id="herman-total" class="amount">R0</p>
+                </div>
+                <div class="summary-item">
+                  <p>Emma owed</p>
+                  <p id="emma-total" class="amount">R0</p>
+                </div>
+              </div>
+              <div class="grand-total">
+                <p>Total owed by shared account</p>
+                <p id="grand-total" class="amount">R0</p>
+                <button id="pay-up-btn" class="btn btn-primary" style="display: none;">Pay up</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Expense List Tabs -->
+        <div class="tabs-container">
+          <div class="tabs-list">
+            <button class="tab-trigger active" data-tab="all">All</button>
+            <button class="tab-trigger" data-tab="Herman">Herman</button>
+            <button class="tab-trigger" data-tab="Emma">Emma</button>
+          </div>
+          <div class="tab-content active" id="all-expenses">
+            <!-- Expenses will be added here dynamically -->
+          </div>
+          <div class="tab-content" id="Herman-expenses">
+            <!-- Herman's expenses will be added here dynamically -->
+          </div>
+          <div class="tab-content" id="Emma-expenses">
+            <!-- Emma's expenses will be added here dynamically -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Dialogs -->
+  <div id="delete-dialog" class="dialog">
+    <div class="dialog-content">
+      <div class="dialog-header">
+        <h2>Confirm Deletion</h2>
+        <p>Are you sure you want to delete this expense? This action cannot be undone.</p>
+      </div>
+      <div class="dialog-footer">
+        <button id="cancel-delete-btn" class="btn btn-outline">Cancel</button>
+        <button id="confirm-delete-btn" class="btn btn-destructive">Delete</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="pay-up-dialog" class="dialog">
+    <div class="dialog-content">
+      <div class="dialog-header">
+        <h2>Confirm Payment</h2>
+        <p>This will add balancing "Pay up" entries to zero out the current balances. The expense history will be preserved.</p>
+      </div>
+      <div class="dialog-footer">
+        <button id="cancel-pay-up-btn" class="btn btn-outline">Cancel</button>
+        <button id="confirm-pay-up-btn" class="btn btn-primary">Yes, Pay Up</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Container -->
+  <div id="toast-container"></div>
+
+  <script src="script.js"></script>
+  
+  <!-- Service Worker Registration -->
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('sw.js', { scope: '.' })
+          .then(registration => {
+            console.log('Service Worker registered with scope:', registration.scope);
+          })
+          .catch(error => {
+            console.error('Service Worker registration failed:', error);
+          });
+      });
+    }
+  </script>
+</body>
+</html>
